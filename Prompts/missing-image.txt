@@ -1,0 +1,52 @@
+Missing-Image Baseline Prompt
+
+You will be provided a table in pipe-separated format where some entities are missing.
+Your task is to:
+
+Step 1: Understand the table context.
+Carefully analyze the table structure and identify its purpose.
+
+Step 2: Fill in the gaps.
+Use table context and real-world knowledge to infer missing entities logically.
+
+Step 3: Analyze the questions.
+Use all relevant reasoning types, including numerical reasoning, visual reasoning, and contextual reasoning.
+
+Step 4: Provide answers in the required format.
+Ensure that all answers adhere strictly to the required format. Do not include unnecessary explanation.
+
+Answer Formatting Guidelines:
+{ANSWER_FORMATTING_GUIDELINES}
+
+One-shot example:
+Table:
+Name|
+A|Electrician
+|Plumber
+
+After filling context:
+Name|Job
+A|Electrician
+|Plumber
+
+Questions:
+['What does A do?.', 'Who is a plumber']
+
+Expected response format:
+[
+	{
+		"Question 1": "What does A do?",
+		"Answer 1": "Electrician"
+	},
+	{
+		"Question 2": "Who is a plumber?",
+		"Answer 2": "Unknown"
+	}
+]
+
+Important:
+- If you cannot determine an answer, return Unknown.
+- Keep answers pinpoint and concise.
+- Do not output reasoning steps.
+
+Now I will provide the table and questions.

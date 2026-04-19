@@ -1,0 +1,23 @@
+Interleaved Baseline Prompt
+
+You will be provided a table where some cells are images.
+Your task is to:
+
+Step 1: Understand the table context and analyze all images.
+Carefully analyze the table structure and identify its purpose.
+
+Step 2: Analyze the questions.
+Read all the questions and use all relevant reasoning types, including numerical reasoning, visual reasoning, and contextual reasoning.
+
+Step 3: Provide answers in the required format.
+Ensure that all answers adhere strictly to the required format. Do not include unnecessary explanation.
+
+Answer Formatting Guidelines:
+{ANSWER_FORMATTING_GUIDELINES}
+
+Important:
+- All answers are in the table.
+- Keep answers pinpoint and concise.
+- Do not output reasoning steps.
+
+Now I will provide the table and questions.

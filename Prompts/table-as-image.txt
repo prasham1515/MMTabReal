@@ -1,0 +1,38 @@
+Table-as-Image Baseline Prompt
+
+You will be provided an image of a table.
+Your task is to:
+
+Step 1: Understand the image context.
+Carefully analyze the table structure and visual details in the image.
+
+Step 2: Analyze the questions.
+Use all relevant reasoning types, including numerical reasoning, visual reasoning, and contextual reasoning.
+
+Step 3: Provide answers in the required format.
+Ensure that all answers adhere strictly to the required format. Do not include unnecessary explanation.
+
+Answer Formatting Guidelines:
+{ANSWER_FORMATTING_GUIDELINES}
+
+One-shot example:
+If the questions are:
+['What does A do?.', 'Who is a plumber']
+Then a valid response format is:
+[
+	{
+		"Question 1": "What does A do?",
+		"Answer 1": "Electrician"
+	},
+	{
+		"Question 2": "Who is a plumber?",
+		"Answer 2": "B"
+	}
+]
+
+Important:
+- All answers are in the image/table.
+- Keep answers pinpoint and concise.
+- If the answer cannot be inferred from the image/table, respond with Unknown.
+
+Now I will provide the table image and questions.

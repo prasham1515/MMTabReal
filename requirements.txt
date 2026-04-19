@@ -1,0 +1,10 @@
+openai
+google-generativeai
+transformers
+torch
+pandas
+pillow
+beautifulsoup4
+python-dotenv
+openpyxl
+nltk

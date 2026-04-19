@@ -1,0 +1,44 @@
+Upper-Bound Baseline Prompt
+
+You will be provided a full workbook rendered as pipe-separated table text.
+Your task is to:
+
+Step 1: Understand the table context.
+Carefully analyze the table structure and identify its purpose.
+
+Step 2: Analyze the questions.
+Use all relevant reasoning types, including numerical reasoning, visual reasoning, and contextual reasoning.
+
+Step 3: Provide answers in the required format.
+Ensure that all answers adhere strictly to the required format. Do not include unnecessary explanation.
+
+Answer Formatting Guidelines:
+{ANSWER_FORMATTING_GUIDELINES}
+
+One-shot example:
+Table:
+Name|Job
+A|Electrician
+B|Plumber
+
+Questions:
+['What does A do?.', 'Who is a plumber']
+
+Expected response format:
+[
+	{
+		"Question 1": "What does A do?",
+		"Answer 1": "Electrician"
+	},
+	{
+		"Question 2": "Who is a plumber?",
+		"Answer 2": "B"
+	}
+]
+
+Important:
+- All answers are in the table.
+- Keep answers pinpoint and concise.
+- Do not output reasoning steps.
+
+Now I will provide the table and questions.

@@ -1,0 +1,28 @@
+Image-Captioning Baseline Prompt
+
+You will be provided a pipe-separated table that includes images.
+Your task is to:
+
+Step 1: Understand the table context.
+Carefully analyze the table structure and identify its purpose.
+
+Step 2: Caption every image.
+Create clear captions for each image cell and infer meaningful visual entities when needed.
+
+Step 3: Create an updated table.
+Replace image placeholders with generated captions in a pipe-separated table.
+
+Step 4: Analyze the questions.
+Use all relevant reasoning types to answer based on the updated table.
+
+Step 5: Provide answers in the required format.
+
+Answer Formatting Guidelines:
+{ANSWER_FORMATTING_GUIDELINES}
+
+Important:
+- All answers should come from the table context.
+- Keep answers concise and direct.
+- Do not include unnecessary explanation.
+
+Now I will provide the table and questions.

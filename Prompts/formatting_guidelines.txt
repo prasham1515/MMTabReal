@@ -1,0 +1,28 @@
+Answer Formatting Guidelines
+
+Provide only the final answer in the required format. Do not include explanation.
+
+1. Single Entity
+- Return one string for a single entity such as a name, country, company, object, or color.
+- Keep it concise and on one line.
+- Examples: Elon Musk, China, Google, Red
+
+2. Single Number
+- If the value is a whole number, do not use decimals.
+- If the value has decimals, round to two decimal places.
+- Remove trailing zero after rounding where applicable (for example, 23.40 becomes 23.4).
+- Include units only when explicitly required by the question.
+- Examples: 45, 12.36, 23.4
+
+3. Multiple Entities
+- Return a JSON-style list of strings.
+- Example: ["Apple", "Microsoft", "Google"]
+
+4. Multiple Numbers
+- Return a JSON-style list of numbers.
+- Apply the single-number formatting rules to each value.
+- Example: [23, 45.67, 89.4]
+
+5. Image/Table Locations
+- When a location is requested, use the format row_num_col_num.
+- Example: row_2_col_3
